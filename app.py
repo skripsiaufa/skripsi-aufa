@@ -19,7 +19,7 @@ st.markdown(
 st.markdown('<div style="display: flex; justify-content: flex-end; margin-top:-70px"><img src="https://media.giphy.com/media/X5PsaxTP6U3h9dUSxd/giphy.gif" alt="GIF" width="100%" style="max-width: 200px; margin-right: 250px;"></div>', unsafe_allow_html=True)
 st.markdown('<p style="background-color: #658626; color: white; font-size: 30px; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1);">🌻Bunga Herbal App🌻</p>', unsafe_allow_html=True)
 st.markdown('<p style="background-color: #8FB447; color: white; font-size: 20px; padding: 10px; border-radius: 5px; text-align: center; box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);">🌼 Tipe Bunga 🌼</p>', unsafe_allow_html=True)
-st.image("bismillah.png", use_column_width=True)
+st.image("https://github.com/skripsiaufa/skripsi-aufa/blob/main/bismillah.png", use_column_width=True)
 # Load the trained model
 load_model = tf.keras.models.load_model('MobileNet.h5')  # replace with actual model path
 
