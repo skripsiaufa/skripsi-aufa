@@ -21,7 +21,7 @@ st.markdown('<p style="background-color: #658626; color: white; font-size: 30px;
 st.markdown('<p style="background-color: #8FB447; color: white; font-size: 20px; padding: 10px; border-radius: 5px; text-align: center; box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);">🌼 Tipe Bunga 🌼</p>', unsafe_allow_html=True)
 st.image("https://github.com/skripsiaufa/skripsi-aufa/blob/main/bismillah.png", use_column_width=True)
 # Load the trained model
-load_model = tf.keras.models.load_model('MobileNet.h5')  # replace with actual model path
+load_model = tf.keras.models.load_model('https://github.com/skripsiaufa/skripsi-aufa/blob/main/MobileNet.h5')  # replace with actual model path
 
 # Assuming 'label_names' is a list of class names
 label_names = ['asoka', 'kecubung', 'krokot', 'periwinkle', 'telang', 'zinnia']   # replace with actual class names
