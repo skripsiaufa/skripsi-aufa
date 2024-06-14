@@ -5,6 +5,10 @@ import cv2
 from PIL import Image
 import tempfile
 
+# Page title
+st.set_page_config(page_title='ML Model Building', page_icon='🌻')
+st.title('🌻 ML Bunga Herbal')
+
 st.markdown(
     """
     <style>
