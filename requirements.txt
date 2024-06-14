@@ -1,1 +1,10 @@
-
+streamlit-webrtc
+tensorflow==2.15.0
+keras==2.15.0
+opencv-python
+scikit-learn
+streamlit
+pandas
+numpy
+pickle-mixin
+matplotlib
